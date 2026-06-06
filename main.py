@@ -1,6 +1,7 @@
-def main():
-    print("Hello from ai-job-monitor!")
+from fastapi import FastAPI
 
+app = FastAPI()
 
-if __name__ == "__main__":
-    main()
+@app.get("/sources")
+def get_sources():
+    return ["headhunter", "LinkedIn", "HubrCareer"]
