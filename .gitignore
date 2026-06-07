@@ -8,3 +8,6 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Local verification artifacts
+ai_job_monitor_streamlit.png
